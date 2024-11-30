@@ -1,0 +1,1 @@
+elixir -r "workspace/$1.exs" -e "Main.main"

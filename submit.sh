@@ -1,0 +1,1 @@
+cat "workspace/$1.exs" | pbcopy

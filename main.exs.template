@@ -1,0 +1,5 @@
+defmodule Main do
+  def main() do
+    IO.read(:line) |> IO.puts()
+  end
+end
