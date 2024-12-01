@@ -1,5 +1,22 @@
 defmodule Main do
   def main() do
-    IO.read(:line) |> IO.puts()
+    input_all()
+    |> solve()
+    |> IO.puts()
+  end
+
+  def solve([n, s]) do
+    # ここに答えを実装
+    n
+  end
+
+  def debug(x) do
+    IO.inspect(x)
+  end
+
+  def input_all do
+    IO.read(:stdio, :eof)
+    |> String.split("\n", trim: true)
   end
 end
+
