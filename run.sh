@@ -1,1 +1,1 @@
-elixir -r "workspace/$1.exs" -e "Main.main"
+cat input.txt | elixir -r "workspace/$1.exs" -e "Main.main"
