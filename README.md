@@ -19,7 +19,7 @@ brew install elixir
 ./start.sh {問題番号:abc_083など}
 ```
 
-### 提出用コードをクリップボードにコピーする
+### 実行する
 
 ```bash
 ./run.sh {問題番号:abc_083など}
